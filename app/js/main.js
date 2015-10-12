@@ -34,14 +34,19 @@ $.ajax({
 
 // hamburger heart
 
-$('.wrap-element').mouseenter(function (event) {
+// $('.wrap-element').mouseenter(function(event){
+$('.details').on('mouseenter', '.wrap-element', function (event) {
   var btn = $(this);
   btn.find('.hamburger-heart').addClass('.show').css("display", "inline");
-  console.log('entered');
 });
 
-$('.wrap-element').mouseleave(function (event) {
+$('.details').on('mouseleave', '.wrap-element', function (event) {
   var btn = $(this);
   btn.find('.hamburger-heart').addClass('.show').css("display", "none");
-  console.log('leave');
 });
+
+// $('.wrap-element').mouseleave(function(event){
+//   var btn = $(this);
+//   btn.find('.hamburger-heart').addClass('.show').css("display","none");
+//   console.log('leave');
+// });
