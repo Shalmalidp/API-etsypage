@@ -1,3 +1,6 @@
-## This is a Readme
+## Recreating Esty Search Page
 
-> You should probably update me.
+>This assignment was to recreate Etsy search page with results using jQuery and Underscore
+
+> My link is : http://development.tiy-api-etsypage-syp.divshot.io/
+
