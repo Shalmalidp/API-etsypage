@@ -1,4 +1,4 @@
-## Recreating Esty Search Page
+## Recreating Etsy Search Page
 
 >This assignment was to recreate Etsy search page with results using jQuery and Underscore
 
